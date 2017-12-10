@@ -8,8 +8,8 @@ About Application
 7. Taking a input and display it on console :-localhost:8080/input
 
 Required Softwares
-NodeJs version - 6.11.2 (download :- https://nodejs.org/en/download/)
-NPM version - 3.10.10 (download :- can be installed with nodejs)
+1. NodeJs version - 6.11.2 (download :- https://nodejs.org/en/download/)
+2. NPM version - 3.10.10 (download :- can be installed with nodejs)
 
 How to run application
 1. Download zip file of repository or git clone https://github.com/12FrosT/Hasura-Task-1.git in terminal or console.
