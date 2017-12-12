@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Robots are not allowed.sorry bots!!!!
+=======
+Robots are not allowed.sorry bots!!!!
+>>>>>>> 23e735bc0f10f6826005734584fd6b5e4654347e
