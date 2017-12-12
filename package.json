@@ -1,12 +1,12 @@
 {
-  "name": "quickstart-docker-express-example",
+  "name": "hasura",
   "version": "1.0.0",
-  "description": "Demo to show git push build and deploy",
+  "description": "modules for application",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ashish",
+  "license": "",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",

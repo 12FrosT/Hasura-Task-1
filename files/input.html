@@ -7,9 +7,19 @@
 	    <button type="button" onclick="
 	    	var text = document.getElementById('input_text').value;
 	        var request = new XMLHttpRequest();
+	        request.onreadystatechange=function(){
+	            if(request.readyState==4){
+	                if(request.status==200)
+	                    document.getElementById('resp').innerHTML='stdout - '+text;
+	                else
+	                    alert('something went wrong');
+	            }
+	            
+	        };
 	        request.open('POST','/input', true);
 	        request.setRequestHeader('Content-Type','application/json');
 	        request.send(JSON.stringify({text:text})); 
 	    ">submit</button>
+	    <div id='resp'></div>
 	</body>
 </html>

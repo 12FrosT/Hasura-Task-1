@@ -63,6 +63,7 @@ app.get('/input',function(req, res){
 
 app.post('/input',function(req, res){
 	console.log(req.body.text);
+	res.send(req.body.text);
 });
 
 app.listen(8080, function () {
